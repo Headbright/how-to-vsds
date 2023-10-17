@@ -11,7 +11,13 @@ export default defineConfig({
       provider: "local",
     },
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "Home", link: "/" },
+      {
+        text: "Technical Docs",
+        link: "https://informatievlaanderen.github.io/VSDS-Tech-Docs/",
+      },
+    ],
 
     sidebar: [
       {

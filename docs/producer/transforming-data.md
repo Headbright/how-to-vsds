@@ -17,7 +17,7 @@ This process usually depends on the type of data being exposed. In order to publ
 
 The value of publishing data sets through LDES lies in the easy interlinking of data between companies and organizations over the Web. Selecting the correct model to describe the data, as well as reusing the same model to describe the same kind of data is one of the means to facilitate client consumers.
 
-An example of a domain-specific model describing sensors, measurements and observations is [OSLO](https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/oslo).
+An example of a domain-specific model describing sensors, measurements, and observations is [OSLO](https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/oslo).
 
 - Data is openly available in a predefined format
 
@@ -50,7 +50,7 @@ The LDI suite of components can achieve this goal:
 While there are multiple ways to handle the mapping of the input data, in this guide, we will focus on using the RML tool.
 
 ::: info
-The [RMLMapper](https://github.com/RMLio/rmlmapper-java) and the [RMLStreamer](https://github.com/RMLio/RMLStreamer) are applications for Linux, Windows, and macOS machines for generating knowledge graphs. They both rely on [declarative rules](https://rml.io/#rules) that define how the knowledge graphs are generated. Get started immediately by following the instructions on their Github repositories.
+The [RMLMapper](https://github.com/RMLio/rmlmapper-java) and the [RMLStreamer](https://github.com/RMLio/RMLStreamer) are applications for Linux, Windows, and macOS machines for generating knowledge graphs. They both rely on [declarative rules](https://rml.io/#rules) that define how the knowledge graphs are generated. Get started immediately by following the instructions on their GitHub repositories.
 :::
 
 ## Getting started with scraping an HTTP endpoint
