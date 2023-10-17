@@ -13,20 +13,11 @@ As a first step, one needs to clearly identify the datasets to be published as L
 
 ## Discover or create ontologies describing the data
 
-TODO...
+This process usually depends on the type of data being exposed. In order to publish a dataset in the form of LDES, the data must be semantically described using one or more data models.
 
-- At the very least, metadata needed to describe each value types
-- Domain-specific data model e.g. [OSLO](https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/oslo)
+The value of publishing data sets through LDES lies in the easy interlinking of data between companies and organizations over the Web. Selecting the correct model to describe the data, as well as reusing the same model to describe the same kind of data is one of the means to faciliate client consumers.
 
-* Transform raw data to **linked data**
-  - Associate models and ontologies with the data
-  - Create the final shape of what will be made part of the LDES stream (e.g. fields may be omitted or transformed)
-* Transform and store as **LDES**
-  - TODO: Apply versioning ...
-  - TODO: The tree spec is ongoing, it's a graph actually (https://github.com/TREEcg/specification)
-* Make the data available to consumers using [LDES Server](https://informatievlaanderen.github.io/VSDS-Tech-Docs/docs/LDES_server.html)
-  - Select the appropriate views and fragmentations for publishing
-  - TODO: What does the LDES Server do (only makes fragmentations)
+An example of a domain-specific model describing sensors, measurements and observations is [OSLO](https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/oslo).
 
 ## Transforming data to linked data
 
@@ -70,9 +61,3 @@ A ready-to-use example is available at [Scrape HTTP Example](https://informatiev
 * YARRRML Matey Editor [https://rml.io/yarrrml/matey/](https://rml.io/yarrrml/matey/)
 
 - More about serving [LDES](https://informatievlaanderen.github.io/VSDS-Tech-Docs/docs/Introduction.html)
-- TBD: https://github.com/Informatievlaanderen/VSDS-Onboarding-CrowdScan/blob/main/architecture/README.md
-- TBD: ... https://github.com/Informatievlaanderen/VSDS-LDES-E2E-testing/tree/main/tests/033.archiving
-
-## Using RML
-
-TODO

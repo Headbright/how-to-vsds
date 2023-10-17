@@ -16,9 +16,12 @@ export default defineConfig({
     sidebar: [
       {
         text: "Publish",
+        link: "/get-started",
         items: [
           { text: "Overview", link: "/producer/get-started-producer" },
           { text: "Transforming data", link: "/producer/transforming-data" },
+          { text: "Publishing", link: "/producer/publish-ldes-server" },
+          { text: "Testing", link: "/producer/testing-compliance" },
           { text: "FAQ", link: "/faq" },
         ],
       },
